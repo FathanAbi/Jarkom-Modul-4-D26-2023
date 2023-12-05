@@ -8,23 +8,23 @@
 ![](./img/Topologi.png)
 
 ## Pembagian Subnet
-![](./img/Pembagian%20Subnet.png)
+![](./img/Pembagian%20Subnet%20REVISI.drawio.png)
 
 ## VLSM (Cisco Packet Tracer)
 ## Subnetting
 Pertama Hitung jumlah Host pada tiap subnet dan rute nya. kemudian tentukan juga netmasknya pada tiap subnet
 
-![](./img/Tabel%20Rute.png)
+![](./img/Tabel%20Rute%20REVISI.png)
 
 Dapat dilihat total Hostnya ada 4257, sehingga netmask subnet besar yang akan digunakan adalah /19 (255.255.224.0).
 
 Setelah itu buat subnetting tree menggunakan metode VLSM
 
-![](./img/Subnet%20Tree.png)
+![](./img/Subnet%20VLSM%20REVISI.drawio.png)
 
 Setelah cari NID, Netmask, dan Broadcast Address tiap Subnet
 
-![](./img/Tabel%20IP.png)
+![](./img/Tabel%20Subnet%20VLSM%20REVISI.png)
 
 Kemudian Implementasikan pada Cisco Packet Tracer
 
@@ -116,4 +116,13 @@ Kemudian Implementasikan pada Cisco Packet Tracer
 ### A22 (Richter & Revolte)
 ![](./img/A22.png)
 
+
+
 ## CIDR (GNS3)
+
+## Revisi
+Terdapat revisi yaitu jumlah ip yang harusnya 4255. bukannya 4257, hal ini disebabkan kelompok kami menghitung subnet Aura-Cloud0, seperti pada template, sehingga kelebihan 2 IP.
+
+Revisi juga terdapat saat tes routing dimana tes routing Fern-linie dan SchwerMountains-Lugner mengalami kegagalan. Hasik revisinya adalah menambah ruting.
+
+![](./img/Testing%20Routing%20Demo%20Revisi.png)
